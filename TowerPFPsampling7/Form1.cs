@@ -1555,6 +1555,7 @@ namespace WindowsFormsApplication1
             msg.To.Add("michael.trudeau@noaa.gov");
             msg.To.Add("arlyn.andrews@noaa.gov");
             msg.To.Add("philip.handley@noaa.gov");
+            msg.To.Add("philip.handley@colorado.edu");
             msg.From = new MailAddress("noaapfp@gmail.com");
             msg.Subject = lbl_SITE_CODE.Text + " Cal Std Change Notice ";
             EBODY1 = TIMESTAMP + txt_TANKCHANGEPERSON.Text + " replaced the following cylinders:";
