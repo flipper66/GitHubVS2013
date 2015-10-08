@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TowerPFPsampling7.exe" version="1.0.0.33" publicKeyToken="f2f981665c97b41b" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TowerPFPsampling7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="TowerPFPsampling7.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TowerPFPsampling7.exe" size="69120">
+      <assemblyIdentity name="TowerPFPsampling7" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BXP8Sbt/GHTp7V/gx2QLcRTASwM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=GMD\Kofler" issuerKeyHash="1ef896c61eca5cf693f1bac205f3e6be449e2adf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0PM3X53dwrPnz8ZzHeY4YR+IMPs=</DigestValue></Reference></SignedInfo><SignatureValue>BHxAhFhfXPbjMLNZSC/gjhtvz1jWPa+gF1V0TgosB9x1FXZfPmY/iVmInYunAERksE0t9PVRPg7bQrr4odX1iY7CbO8sjc2Kgu5NVS6+RBQYduMkofRfvArizHCIGhxB5FIQZT7yLfxamq8GkOGx+E1pm/4YQQkMNmG5msgPRqY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sFVVvdWHm5nQhq4P4UGJnEsqA7Z+lcvW4n+sJhptuZll7XZWZm/KSOIKZaDjvMR4oORFBSf9ICkqdWGbCsrwzFKrcMKCI4H9E8H8le8eZvwnMq4sKm0ci/zxlTMHGE31I7LLvLTbFcuVNL6PHv1i7fycGxjDkJv3HiXhvsglFG8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb30881f6138e61d73c6cfe7b3c2dd9d5f37f3d0" Description="" Url=""><as:assemblyIdentity name="TowerPFPsampling7.exe" version="1.0.0.33" publicKeyToken="f2f981665c97b41b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GMD\Kofler</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XnrA3Z9DRWJWweR3hSiCLGEHLUc=</DigestValue></Reference></SignedInfo><SignatureValue>c5H6ijL/Fp5ajzyel9RKX9/QQKOxFbW5XyU1uyTapKB1hJHbQypMC3uudcTlLGOS2oHXoJGQbm3TxGcw65nhen0TAkUYju9QJFcFlONkGVXUTgmKe6DhuJdgPFhA08olb/qdj6Cs0Ny35O7E8axcpDhYa0CS/EFRlBsO6tXAFL0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sFVVvdWHm5nQhq4P4UGJnEsqA7Z+lcvW4n+sJhptuZll7XZWZm/KSOIKZaDjvMR4oORFBSf9ICkqdWGbCsrwzFKrcMKCI4H9E8H8le8eZvwnMq4sKm0ci/zxlTMHGE31I7LLvLTbFcuVNL6PHv1i7fycGxjDkJv3HiXhvsglFG8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQOuWtHWHJnK9J/EzMnlZHHTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQARwBNAEQAXABLAG8AZgBsAGUAcjAeFw0xMzExMTgyMjI5NTBaFw0xNDExMTkwNDI5NTBaMB8xHTAbBgNVBAMeFABHAE0ARABcAEsAbwBmAGwAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwVVW91YebmdCGrg/hQYmcSyoDtn6Vy9bif6wmGm25mWXtdlZmb8pI4gploOO8xHig5EUFJ/0gKSp1YZsKyvDMUqtwwoIjgf0TwfyV7x5m/CcyriwqbRyL/PGVMwcYTfUjssu8tNsVy5U0vo8e/WLt/JwbGMOQm/ceJeG+yCUUbwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJOGZA0GdW13zRFhbT8sMRWNDUOy41ri5lhocN/xG+HTdGH5JMRziAg4PlWDTMKB180FRTWY838a9GOfkXtzPPuwky7gGZ46JyucADRuldcQM9hPDxFpfYnNPgqXcOSqs/ZoXl46MOs16qQfXQkkgZByO+ZPvDa/WMXX0vhpZ6E1</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
